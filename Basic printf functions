@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main()
+{
+    printf("%d %d\n",12,13);                // initger
+    printf("%.2f\n",12.33);             // float
+    printf("%c%c\n",'a','b');               // character
+    printf("Placement Training");   // string
+    return 0;
+}
