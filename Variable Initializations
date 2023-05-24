@@ -1,0 +1,43 @@
+#include <stdio.h>
+
+int main()
+{
+    //Approach 1
+    int a; // variable declaration
+    a=10; // initialization
+    printf("%d\n",a);
+
+    //Approach 2
+    int b=20;
+     printf("%d",b);
+    return 0;
+}
+==========================================
+#include <stdio.h>
+
+int main()
+{
+    //Approach 1
+    float a=10.22;
+    printf("%f\n",a);
+
+    //Approach 2
+    float b;
+    b=45.544;
+    printf("%f\n",b);
+     
+    return 0;
+}
+==========================================
+#include <stdio.h>
+
+int main()
+{
+    char ch='a';
+    char ch1='@';
+    char ch2='3';
+    
+    printf("%c %c %c",ch,ch1,ch2);
+     
+    return 0;
+}
